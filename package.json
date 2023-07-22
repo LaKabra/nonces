@@ -1,0 +1,21 @@
+{
+  "name": "nonces",
+  "version": "1.0.0",
+  "description": "test",
+  "dependencies": {
+    "add": "^2.0.6",
+    "dotenv": "^16.3.1",
+    "process-env": "^2.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.2",
+    "hardhat": "^2.17.0"
+  },
+  "scripts": {
+    "1": "npx hardhat run scripts/deploy.js",
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean",
+    "node": "npx hardhat node"
+  }
+}
